@@ -1,0 +1,14 @@
+digraph {
+	edge [color=red]
+	S [label=Standing color=lightblue pos="0, 1!" style=filled]
+	F [label=Fallen color=lightblue pos="10, 1!" style=filled]
+	M [label=Moving color=lightblue pos="0, 0.5!" style=filled]
+	S -> F [label="0.4, 1" color=green]
+	S -> M [label="1, +1" color=green]
+	M -> F [label=".2, -1" color=green]
+	F -> S [label="0.4, -1"]
+	S -> M [label=".6, +2"]
+	M -> M [label="1, +1"]
+	M -> M [label=".8, +2"]
+	F -> F [label=".6, -1"]
+}
