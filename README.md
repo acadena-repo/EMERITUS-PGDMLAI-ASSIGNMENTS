@@ -1,2 +1,4 @@
 # EMERITUS-PGDMLAI-ASSIGNMENTS
-Jupyter notebooks of all assignments
+***
+## POSTGRADUATE DIPLOMA IN MACHINE LEARNING AND ARTIFICIAL INTELLIGENCE
+- The repository contents all the Jupyter Notebooks of all assignments
